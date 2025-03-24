@@ -1,0 +1,17 @@
+h1{
+    color: green;
+    
+}
+p{
+    color: red;
+    background-color: #79CAR6;
+    font-size: 40px;
+    border: dashed;
+    width: 300px;
+    margin: 40px;
+    padding: 30px;
+}
+body{
+    margin: 0 auto;
+    width: 80%;
+}

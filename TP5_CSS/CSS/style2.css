@@ -1,0 +1,142 @@
+body {
+    background-color: lightgray;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    width: 80%;
+    margin: 5%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: #b1b6e4;
+    margin-right: 2%;
+}
+
+article {
+    float: left;
+    width: 80%;
+    min-height: 500px;
+    background: #8791eb;
+    margin-right: 2%;
+}
+
+aside {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: #949ace;
+}
+
+footer {
+    clear: left;
+    float: left;
+    background-color: #6669c1;
+    height: 100px;
+    width: 85%;
+    margin: 5%;
+}
+article h3 {
+    padding: 10px;
+}
+
+#F {
+    text-align: center;
+}
+
+#H2,
+#H4 {
+    margin-left: 10px;
+}
+
+#P {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+#PC {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: Comic Sans MS;
+}
+
+#l {
+    list-style-type: square;
+}
+
+#content {
+    margin: 5%;
+}
+
+#menu {
+    margin: 20px;
+    padding: 20px 10px 20px 10px;
+    list-style: none;
+}
+
+#menu a {
+    display: block;
+    height: 1%;
+    padding: 6px 10px 6px 10px;
+    line-height: 1.5;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+#menu a:hover,
+#menu a:focus {
+    background: #8791EB;
+}
+
+
+@media (max-width:768px) {
+
+    body {
+        width: 80%;
+    }
+
+    header {
+        width: 100%;
+        margin: 5%;
+        margin: 5%;
+    }
+
+    nav {
+        clear: left;
+        width: 100%;
+        height: auto;
+        background-color: #b1b6e4;
+        margin-right: 0%;
+        margin-bottom: 5%;
+    }
+
+    article {
+        clear: left;
+        width: 100%;
+        height: auto;
+        min-height: 500px;
+        background: #8791eb;
+        margin-right: 0%;
+        margin-bottom: 5%;
+    }
+
+    aside {
+        clear: left;
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        clear: left;
+        height: 100px;
+        width: 90%;
+        margin: 5%;
+    }
+    
+}

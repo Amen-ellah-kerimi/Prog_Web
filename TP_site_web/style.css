@@ -1,0 +1,121 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E6F2FF;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #3399FF;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Content layout */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+/* Main article */
+article {
+    flex: 3;
+    background-color: white;
+    padding: 15px;
+    border: 1px solid lightgray;
+}
+
+/* Sidebar */
+#sidebar {
+    flex: 1;
+    background-color: #F2F9FF;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+#sidebar fieldset {
+    border: none;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Sidebar menu */
+table {
+    width: 100%;
+}
+
+caption {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0066CC;
+    margin-bottom: 10px;
+}
+
+
+/* Sidebar menu */
+table[summary="Menu"] td,
+table[summary="Mes liens"] td {
+    background-color: #3399FF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #3399FF;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+/* Buttons */
+button,
+input[type="submit"],
+input[type="button"] {
+    background-color: #3399FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #1E90FF;
+    transform: scale(1.05);
+}
+#H:hover{
+    background-color: #1E90FF;
+    transform: scale(1.05);
+
+}
