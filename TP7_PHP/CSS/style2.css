@@ -1,0 +1,222 @@
+body {
+    background-color: lightgray;
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    width: 80%;
+    margin: 5%;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    height: 500px;
+    background-color: #b1b6e4;
+    margin-right: 2%;
+}
+
+article {
+    float: left;
+    width: 60%; /* Adjusted width for better alignment */
+    min-height: 500px;
+    background: #8791eb;
+    margin-right: 2%;
+    padding: 10px; /* Added padding for better spacing */
+}
+
+/* Style for the article div in the mail page */
+article#P {
+    width: 80%; /* Match the width in the image */
+    margin: 0 auto; /* Center horizontally */
+    background-color: #8791eb; /* Match the background color */
+    padding: 10px; /* Add padding for spacing */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+article#P h3 {
+    text-align: left; /* Align heading to the left */
+    font-weight: bold; /* Make the heading bold */
+    margin-bottom: 10px; /* Add spacing below the heading */
+}
+
+article#P table {
+    width: 100%; /* Make the table take full width */
+    border-spacing: 0; /* Remove spacing between table cells */
+}
+
+article#P table td {
+    padding: 5px; /* Add minimal spacing between table cells */
+    vertical-align: middle; /* Align text to the middle */
+}
+
+article#P label {
+    display: inline; /* Keep labels inline with inputs */
+    font-weight: normal; /* Match the font weight in the image */
+}
+
+article#P input[type="text"],
+article#P textarea {
+    width: 100%; /* Make inputs and textarea take full width */
+    padding: 5px; /* Add minimal padding inside inputs */
+    border: 1px solid black; /* Add a black border */
+    box-sizing: border-box; /* Include padding in width */
+}
+
+article#P textarea {
+    resize: none; /* Disable resizing */
+    height: 100px; /* Set a fixed height */
+}
+
+aside {
+    float: left;
+    width: 20%;
+    height: auto; /* Adjusted height for dynamic content */
+    background-color: #949ace;
+    padding: 10px; /* Added padding for better spacing */
+    margin-left: 10px; /* Add spacing between aside and article */
+}
+
+footer {
+    clear: both; /* Ensure footer stays below all content */
+    float: none;
+    background-color: #6669c1;
+    height: 100px;
+    width: 100%; /* Adjusted width to span the entire page */
+    margin: 0 auto;
+    text-align: center; /* Centered text */
+    padding: 10px; /* Added padding for better spacing */
+}
+
+article h3 {
+    padding: 10px;
+}
+
+#F {
+    text-align: center;
+}
+
+#H2,
+#H4 {
+    margin-left: 10px;
+}
+
+#P {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+}
+
+#PC {
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
+    font-family: Comic Sans MS;
+}
+
+#l {
+    list-style-type: square;
+}
+
+#content {
+    margin: 5%;
+}
+
+#menu {
+    margin: 20px;
+    padding: 20px 10px 20px 10px;
+    list-style: none;
+}
+
+#menu a {
+    display: block;
+    height: 1%;
+    padding: 6px 10px 6px 10px;
+    line-height: 1.5;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+#menu a:hover,
+#menu a:focus {
+    background: #8791EB;
+}
+#Button {
+    display: block; /* Center the button */
+    margin: 10px auto; /* Add spacing and center horizontally */
+    padding: 5px 10px; /* Add minimal padding to the button */
+    background-color: #d3d3d3; /* Match the button color in the image */
+    color: black; /* Black text */
+    border: 1px solid black; /* Add a black border */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+#Button:hover {
+    background-color: #c0c0c0; /* Slightly darker shade on hover */
+}
+
+@media (max-width:768px) {
+
+    body {
+        width: 100%; /* Adjusted for smaller screens */
+    }
+
+    header {
+        width: 100%;
+        margin: 5%;
+    }
+
+    nav, article, aside {
+        float: none; /* Stack elements vertically */
+        width: 100%;
+        height: auto;
+        margin-right: 0%;
+        margin-bottom: 5%;
+    }
+
+    footer {
+        clear: left;
+        height: 100px;
+        width: 90%;
+        margin: 5%;
+    }
+}
+
+/* Ensure proper alignment for larger screens */
+@media (min-width: 769px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    nav {
+        float: none;
+        width: 20%;
+        height: auto;
+    }
+
+    article {
+        float: none;
+        width: 60%;
+        min-height: 500px;
+    }
+
+    aside {
+        float: none;
+        width: 20%;
+        height: auto;
+    }
+
+    footer {
+        width: 100%;
+    }
+}
